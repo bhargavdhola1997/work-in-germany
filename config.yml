@@ -266,6 +266,34 @@ categories:
       - r&d engineer
       - laboringenieur
       - wissenschaftliche hilfskraft
+  Process Engineering:
+    icon: "⚙️"
+    keywords:
+      - process engineer
+      - prozessingenieur
+      - verfahrensingenieur
+      - verfahrenstechnik
+      - verfahrenstechniker
+      - prozesstechnik
+      - prozesstechnologe
+      - process development
+      - prozessentwickl
+      - process technology
+      - process safety
+  Chemical Engineering:
+    icon: "🧪"
+    keywords:
+      - chemical engineer
+      - chemieingenieur
+      - chemietechnik
+      - chemikant
+      - chemielaborant
+      - chemiker
+      - chemist
+      - chemical process
+      - chemical technolog
+      - chemische
+      - polymer
   Werkstudent & Internship:
     icon: "🎓"
     keywords:
@@ -1236,6 +1264,13 @@ jobspy:
     - { term: "junior developer", location: "Germany", sites: [linkedin, indeed], results_wanted: 60 }
     - { term: "Berufseinsteiger", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
     - { term: "graduate program Germany", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+
+    # === PROCESS & CHEMICAL ENGINEERING ===
+    - { term: "process engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "Verfahrenstechnik", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "Verfahrensingenieur", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "chemical engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "Chemieingenieur", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
 
     # === RESEARCH ===
     - { term: "wissenschaftlicher Mitarbeiter Informatik", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
