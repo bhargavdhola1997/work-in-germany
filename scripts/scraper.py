@@ -48,7 +48,7 @@ log = logging.getLogger("scraper")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "WorkInGermany-Bot/1.0 (+https://github.com/ashishtiwari03/work-in-germany)",
+    "User-Agent": "WorkInGermany-Bot/1.0 (+https://github.com/bhargavdhola1997/work-in-germany)",
     "Accept": "application/json",
 })
 
@@ -459,6 +459,7 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
     lines.append("> 🔄 Unlike manual lists, this repo uses **100+ company APIs** (Greenhouse, Lever) and updates automatically via GitHub Actions.")
     lines.append("> Every listing is tagged with language requirements and visa sponsorship status.\n")
     lines.append("> 🙏 **Contribute** by submitting an [issue](../../issues/new/choose)! See [contribution guidelines](CONTRIBUTING.md).\n")
+    lines.append("> 👤 Maintained by [Bhargav Dhola](https://github.com/bhargavdhola1997) • Based on [work-in-germany](https://github.com/ashishtiwari03/work-in-germany) by Ashish Tiwari.\n")
     lines.append("---\n")
 
     # Browse by category
