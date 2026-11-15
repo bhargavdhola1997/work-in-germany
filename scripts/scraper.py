@@ -439,6 +439,8 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
         "Werkstudent & Internship",
         "Trainee & Ausbildung",
         "Hardware Engineering",
+        "Process Engineering",
+        "Chemical Engineering",
         "Other",
     ]
 
@@ -1030,6 +1032,11 @@ def main():
     existing = load_existing()
     max_age = config.get("settings", {}).get("max_age_days", 60)
     merged = merge(existing, all_jobs, max_age)
+
+    # Re-apply the category keywords to every saved job, so config changes
+    # (such as new categories) also reach jobs collected in earlier runs.
+    for job in merged:
+        job["category"] = classify_category(job.get("title", ""), config)
 
     stats = compute_stats(merged)
     log.info(f"Final: {stats['total_jobs']} jobs | {stats['companies_tracked']} companies | {stats['visa_friendly']} visa-friendly | {stats['english_friendly']} english-ok")
