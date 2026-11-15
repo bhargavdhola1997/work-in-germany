@@ -13,6 +13,8 @@
 
 > 🙏 **Contribute** by submitting an [issue](../../issues/new/choose)! See [contribution guidelines](CONTRIBUTING.md).
 
+> 👤 Maintained by [Bhargav Dhola](https://github.com/bhargavdhola1997) • Based on [work-in-germany](https://github.com/ashishtiwari03/work-in-germany) by Ashish Tiwari.
+
 ---
 
 ## 📂 Browse Jobs by Category
